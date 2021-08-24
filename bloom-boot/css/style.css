@@ -1,0 +1,253 @@
+:root {
+    --headerFont: 'giddyup-std', sans-serif;
+}
+
+/* header */
+
+.header{
+    background-color: #26292e;
+}
+
+.logo{
+    font-family: var(--headerFont);
+    text-transform: capitalize;
+    color: white;
+    font-weight: 50;
+    font-size: 35px;
+    margin-top: 8px;
+}
+
+@media(max-width: 575.98px){
+    .logo{
+        text-align: center;
+    }
+    nav{
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    nav{
+        margin-left: 130px;
+    }
+    .colophon-text{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    nav{
+        margin-left: 250px;
+    }
+}
+
+@media (min-width: 1200px){
+    nav{
+        margin-left: 60%;
+    }
+}
+/* close header */
+
+/* main */
+.section1{
+    background-color: #e7718b;
+    color: white;
+}
+
+.landing{
+    padding-top: 70px;
+}
+
+
+.landing-img{
+    width: 100%
+}
+
+.section1 .sub-header{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.section1 .text{
+    font-family: sans-serif;
+}
+
+.button{
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 7px;
+    color: white;
+    text-transform: capitalize;
+    background: linear-gradient(#555659,#262928);
+}
+
+@media(max-width: 575.98px){
+    .landing{
+        padding-top: 20px;
+    }
+    .sub-header{
+        text-align: center;
+    }
+    .text{
+        text-align: justify;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .button{
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .landing{
+        padding-top: 30px;
+        font-size: 9px;
+    }
+    .button{
+        margin-top: 10px;
+    }
+    .section1 .sub-header{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .landing{
+        padding-top: 40px;
+        font-size: 12px;
+    }
+    .section1 .sub-header{
+        font-size: 30px;
+    }
+    .button{
+        margin-top: 10px;
+    }
+}
+
+.section2{
+    background-color: #f4f4f6;
+    border-bottom: 4px solid #f9e6ea;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section2 .sub-header{
+    font-family: sans-serif;
+    color: #424242;
+}
+
+.section2 .text {
+    font-family: sans-serif;
+    color: #c5c5c7;
+    font-size: 15px;
+    /* border: 1px solid red; */
+}
+
+.cloud{
+    width: 10%;
+}
+
+.comment{
+    width: 10%;
+}
+
+.star{
+    width: 10%;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .section2 .sub-header{
+        font-size: 20px;
+    }
+}
+@media(max-width: 575.98px){
+    .header-wrapper{
+        justify-content: center;
+    }
+}
+
+.section3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section3 .sub-header{
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #424242;
+}
+
+.section3 .text {
+    color: #c5c5c7;
+}
+
+@media(max-width: 575.98px){
+    #sub-header{
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    .products{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+
+.product .img-fluid{
+    /* box-shadow: 2px 2px 2px black, 0 0 25px black, 0 0 5px black; */
+    box-shadow: 2px 7px 30px black;
+    width: 250px;
+}
+
+.product{
+    margin: 18px;
+}
+
+.bold{
+    color: #424242;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .product{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .product{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+    }
+}
+/* close main */
+
+/* footer */
+
+.footer{
+    background-color: #26292e;
+}
+
+.colophon-text{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    color: white;
+}
+
+@media(max-width: 575.98px){
+    .colophon-text{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+/* close footer */
